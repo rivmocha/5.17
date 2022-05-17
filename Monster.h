@@ -11,7 +11,7 @@ public:
 	int HP;
 	int Gold;
 
-	void Move();
+	virtual void Move();
 	void Attack();
 	void Drop();
 

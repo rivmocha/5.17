@@ -5,12 +5,12 @@ class Goblin : public Monster
 {
 public:
 	Goblin();
-	Goblin(int NewHP, int NewGodl);
+	Goblin(int NewHP, int NewGold);
 	virtual~Goblin();
 
 	int HP;
 	int Gold;
 
-	virtual void Move();
+	virtual void Move() override;
 };
 

@@ -26,13 +26,13 @@ int main()
 	Monsters.push_back(new Boar);
 
 	//Tick 몬스터 이동
-	for (int i = 0; i < Monsters.size(); ++i)
+	for (unsigned int i = 0; i < Monsters.size(); ++i)
 	{
 		Monsters[i] ->Move();
 	}
 
-	// 출현했던 몬스터 제거
-	for (int i = 0; i < Monsters.size(); ++i)
+	// 출현했던 몬스터 제거                         
+	for (size_t i = 0; i < Monsters.size(); ++i)
 	{
 		delete Monsters[i];
 	}
