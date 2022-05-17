@@ -1,7 +1,8 @@
 #pragma once
+#include "Character.h"
 
 
-class Player
+class Player : public Character			//캐릭터를 상속 받는다.
 {
 public:
 	Player();
@@ -13,8 +14,8 @@ public:
 	int MP;
 	int Gold;
 
-	void Move();
-	void Attack();
+	virtual void Move() override;
+	virtual void Attack() override;
 	void Pickup();
 
 

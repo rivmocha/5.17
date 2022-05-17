@@ -3,16 +3,11 @@
 using namespace std;
 
 Boar::Boar()
-	: HP(0), Gold(0)
+	
 {
 	cout << "客老靛焊绢 积己" << endl;
 }
 
-Boar::Boar(int NewHP, int NewGold)
-{
-	HP = NewHP;
-	Gold = NewGold;
-}
 
 Boar::~Boar()
 {

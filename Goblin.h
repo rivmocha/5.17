@@ -1,15 +1,15 @@
 #pragma once
 #include "Monster.h"
+#include <iostream>
+
+using namespace std;
 
 class Goblin : public Monster
 {
 public:
 	Goblin();
-	Goblin(int NewHP, int NewGold);
 	virtual~Goblin();
 
-	int HP;
-	int Gold;
 
 	virtual void Move() override;
 };
