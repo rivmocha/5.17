@@ -1,12 +1,17 @@
 #pragma once
-#include "AActor.h"
 
-class Monster : public AActor
+
+class Monster
 {
 public:
 	Monster();
 	~Monster();
 
+	int HP;
+	int Gold;
+
+	void Move();
+	void Attack();
 	void Drop();
 
 };

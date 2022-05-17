@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AActor.cpp" />
     <ClCompile Include="Boar.cpp" />
     <ClCompile Include="Goblin.cpp" />
     <ClCompile Include="main.cpp" />
@@ -148,7 +147,6 @@
     <ClCompile Include="Slime.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AActor.h" />
     <ClInclude Include="Boar.h" />
     <ClInclude Include="Goblin.h" />
     <ClInclude Include="Monster.h" />
