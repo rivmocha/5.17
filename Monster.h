@@ -5,7 +5,8 @@ class Monster
 {
 public:
 	Monster();
-	~Monster();
+	Monster(int NewHP, int NewGodl);
+	virtual~Monster();
 
 	int HP;
 	int Gold;

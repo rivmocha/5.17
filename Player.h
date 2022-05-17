@@ -5,7 +5,8 @@ class Player
 {
 public:
 	Player();
-	~Player();
+	Player(int NewHP, int NewMP, int NewGold);
+	virtual~Player();
 
 	
 	int HP;
